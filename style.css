@@ -1,0 +1,51 @@
+
+body{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    height: 450px;
+    width: 850px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    height: 450px;
+    width: 850px;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("earth.jpg");
+    
+}
+.parent {
+    background-color: lightgray;
+    display: flex;
+    flex-flow: row;
+    margin: 20px;
+    width: 850px;
+    height: 324px;
+    justify-content: space-evenly;
+}
+article{
+    width: 270px;
+}
+.div1{
+    padding: 20px;
+}
+.div2{
+    padding: 20px;
+}
+.div3{
+    padding: 20px;
+}
+button{
+   background-color: rgb(34, 32, 32);
+    color: seashell;
+}
